@@ -37,7 +37,6 @@ public class StartRecording extends AbstractAPIActivity {
             }
         }
     }
-
     private void updateTrackMetadata(@NonNull Track.Id trackId, @NonNull Bundle bundle) {
         ContentProviderUtils contentProviderUtils = new ContentProviderUtils(this);
         Track track = contentProviderUtils.getTrack(trackId);
